@@ -1,6 +1,6 @@
 # Scrapy-project
 This project is an implentation of simple scrapy project, which first crawl over the price comparison website [apomio](https://www.apomio.de) and store the result in a sqlite database.\
-**Requirement** : conda
+**Requirement** : [conda](https://docs.conda.io/en/latest/)
 ## Structure
 - spiders
   - apomio_spider.py: *perfroms web crawl*
