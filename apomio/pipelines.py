@@ -58,6 +58,7 @@ class ApomioPipeline(object):
         return item
 
 
+# Deal with duplicates: update the corresponding information
 class DuplicatesPipeline(object):
 
     def __init__(self):
